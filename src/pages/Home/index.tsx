@@ -6,7 +6,7 @@ const Home: React.FC = (): JSX.Element => {
 	return (
 		<React.Fragment>
 			<Link to='/login'>
-				<Button colorScheme='teal'>Go to login</Button>
+				<Button colorScheme='teal'>Go to Login</Button>
 			</Link>
 		</React.Fragment>
 	);
