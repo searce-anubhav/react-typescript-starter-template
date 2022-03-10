@@ -8,7 +8,7 @@ const Login: React.FC = (): JSX.Element => {
 		<React.Fragment>
 			<div className='level m-6'>
 				<Link to='/'>
-					<Button className='button is-warning m-1'>Go to Login</Button>
+					<Button className='button is-warning m-1'>Go to Home</Button>
 				</Link>
 				<Input
 					className='input is-warning m-1'
