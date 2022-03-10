@@ -1,10 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Render Button Snapshot and Match 1`] = `
-<button
-  className="chakra-button css-5c2176"
-  type="button"
->
+<button>
   Hello
 </button>
 `;

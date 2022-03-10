@@ -1,15 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Render Home Snapshot and Match 1`] = `
-<a
-  href="/login"
-  onClick={[Function]}
+<div
+  className="level m-6"
 >
-  <button
-    className="chakra-button css-5c2176"
-    type="button"
+  <a
+    href="/login"
+    onClick={[Function]}
   >
-    Go to Login
-  </button>
-</a>
+     
+    <button
+      className="button is-success m-1"
+    >
+      Go to Login
+    </button>
+  </a>
+  <input
+    className="input is-primary m-1"
+    placeholder="Enter Name"
+    type="text"
+  />
+</div>
 `;

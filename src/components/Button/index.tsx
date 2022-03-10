@@ -1,13 +1,16 @@
 import * as React from 'react';
-import { Button as ChakraButton, ButtonProps } from '@chakra-ui/react';
+
+interface ButtonProps {
+	className: string;
+}
 
 const Button: React.FC<ButtonProps> = ({
-	colorScheme,
+	className,
 	children,
 }): JSX.Element => {
 	return (
 		<React.Fragment>
-			<ChakraButton colorScheme={colorScheme}>{children}</ChakraButton>
+			<button className={className}>{children}</button>
 		</React.Fragment>
 	);
 };

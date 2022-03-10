@@ -1,9 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render Input Snapshot and Match 1`] = `
-<input
-  className="chakra-input css-0"
-  onBlur={[Function]}
-  onFocus={[Function]}
-/>
-`;
+exports[`Render Input Snapshot and Match 1`] = `<input />`;
